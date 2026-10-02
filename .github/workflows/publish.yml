@@ -167,5 +167,5 @@ jobs:
                 | "\(.platform.os)/\(.platform.architecture)\(if .platform.architecture == "arm" and .platform.variant then "/\(.platform.variant)" else "" end)"
               ] as $platforms
               | ($platforms | length == 3)
-              and ($platforms | sort == $expected)
+              and ($platforms | sort == ($expected | sort))
             ' manifest.json
