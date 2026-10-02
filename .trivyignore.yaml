@@ -7,7 +7,7 @@
 #       - usr/lib/path/to/affected-package
 #     # Alternatively, scope to a package with purls:
 #     # purls:
-#     #   - pkg:deb/ubuntu/package@version?arch=amd64
+#     #   - pkg:deb/debian/package@version?arch=amd64
 #     statement: "Why this exception is necessary and the remediation plan."
 #     expired_at: 2026-12-31
 vulnerabilities: []
